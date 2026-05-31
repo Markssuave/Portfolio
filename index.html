@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Vasquez - Portfolio</title>
+    <meta name="description" content="Portfolio of Mark Vasquez - IT Generalist & Software Developer">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Mark</div>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about" class="nav-link active">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#tech" class="nav-link">Tech Stack</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-content">
+                <div class="profile-img-container">
+                    <img src="about-me-picture.jpg" alt="Mark Vasquez" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <h1>Sean Mark Vasquez</h1>
+                    <h2>IT Generalist</h2>
+                    <p>Highly adaptable IT generalist with a proven ability to pivot seamlessly across the entire
+                        software development life cycle. Experience spans project management, comprehensive system
+                        architecture, responsive frontend engineering, and quality assurance. Thrives in dynamic
+                        environments, stepping into critical roles to drive complex digital platforms from initial
+                        requirements gathering to final deployment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title reveal-element">University Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal-element">
+                    <img src="arta.png" alt="Valenzuela City Smart Feedback System" class="project-thumb">
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="role">Project Manager</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <h3>Valenzuela City Smart Feedback System</h3>
+                        <p class="project-short-desc">An automated, ARTA compliant survey platform featuring an offline
+                            first architecture designed to guarantee uninterrupted data collection for citizen
+                            evaluation of public services.</p>
+                        <div class="project-full-desc" style="display:none;">
+                            <p>An automated, ARTA compliant survey platform featuring an offline first architecture
+                                designed to guarantee uninterrupted data collection for citizen evaluation of public
+                                services.</p>
+                            <h4>My Contributions:</h4>
+                            <ul>
+                                <li>Managed the end to end product delivery, bridging the gap between stakeholder
+                                    compliance needs and functional technical execution.</li>
+                                <li>Directed a seven person development team to build a scalable hybrid client server
+                                    application using Flutter, Node.js, and MongoDB for seamless deployment across
+                                    Android, Windows, and web environments.</li>
+                                <li>Facilitated software quality evaluations based on ISO 25010 standards, leveraging
+                                    technical feedback from IT experts to prioritize UI enhancements, database
+                                    optimizations, and overall performance improvements.</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="see-more">See more...</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal-element" style="transition-delay: 0.1s;">
+                    <img src="heavenly.png" alt="Heavenly Cafe" class="project-thumb">
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="role">Front End Developer</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <h3>Heavenly Cafe</h3>
+                        <p class="project-short-desc">A responsive web application designed to elevate the digital
+                            storefront of a local cafe, providing customers with an accessible online menu, photo
+                            galleries, and promotional updates.</p>
+                        <div class="project-full-desc" style="display:none;">
+                            <p>A responsive web application designed to elevate the digital storefront of a local cafe,
+                                providing customers with an accessible online menu, photo galleries, and promotional
+                                updates.</p>
+                            <h4>My Contributions:</h4>
+                            <ul>
+                                <li>Developed a clean, visually appealing front end architecture using HTML and CSS,
+                                    ensuring a seamless and responsive user experience across all core site pages.</li>
+                                <li>Programmed dynamic UI features, including interactive menus, promotional banners,
+                                    and photo galleries, using modular JavaScript to drive user engagement and site
+                                    interactivity.</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="see-more">See more...</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card reveal-element" style="transition-delay: 0.2s;">
+                    <img src="certigo.png" alt="CertiGo" class="project-thumb">
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="role">Quality Assurance Tester</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <h3>CertiGo</h3>
+                        <p class="project-short-desc">A digital platform that modernizes local community services for
+                            Barangay Balangkas by enabling residents to request indigency certificates online.</p>
+                        <div class="project-full-desc" style="display:none;">
+                            <p>A digital platform that modernizes local community services for Barangay Balangkas by
+                                enabling residents to request indigency certificates online.</p>
+                            <h4>My Contributions:</h4>
+                            <ul>
+                                <li>Conducted manual UI/UX testing to ensure an intuitive and seamless user experience
+                                    across the Certigo platform.</li>
+                                <li>Leveraged AI tools to accelerate the development and maintenance of an automated
+                                    testing suite, utilizing Jest for JavaScript unit testing and Playwright for
+                                    real-browser end-to-end testing of critical user flows.</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="see-more">See more...</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card reveal-element" style="transition-delay: 0.3s;">
+                    <img src="mathpulse.png" alt="Mathpulse AI" class="project-thumb">
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="role">Quality Assurance & Documentation Lead</span>
+                            <span class="year">2026</span>
+                        </div>
+                        <h3>Mathpulse AI</h3>
+                        <p class="project-short-desc">A predictive recommender system designed to identify at-risk
+                            mathematics students across all Senior High School strands for General Tiburcio De Leon
+                            National High School and deliver data-driven, personalized learning interventions.</p>
+                        <div class="project-full-desc" style="display:none;">
+                            <p>A predictive recommender system designed to identify at-risk mathematics students across
+                                all Senior High School strands for General Tiburcio De Leon National High School and
+                                deliver data-driven, personalized learning interventions.</p>
+                            <h4>My Contributions:</h4>
+                            <ul>
+                                <li>Led the capstone team in all documentation efforts, overseeing the drafting,
+                                    revision, and strict formatting of the project manuscript alongside the management
+                                    of all required academic compliance forms.</li>
+                                <li>Facilitated stakeholder communication and project planning by leading requirements
+                                    gathering and technical consultations with General Tiburcio De Leon National High
+                                    School faculty and the project's technical adviser, while tracking schedules via
+                                    detailed Gantt charts and Critical Path Methods.</li>
+                                <li>Designed comprehensive system architecture by developing detailed Data Flow Diagrams
+                                    (DFD), Use Case, Activity, Package, and Cisco Physical View diagrams using
+                                    Mermaid.js and Draw.io to map out the platform's structural and behavioral flows.
+                                </li>
+                                <li>Developed and executed comprehensive manual UI/UX test cases alongside automated
+                                    testing scripts across all core user modules (student, teacher, admin) to validate
+                                    functionality and user experience.</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="see-more">See more...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech" class="section">
+            <h2 class="section-title reveal-element">Tech Stack</h2>
+            <div class="tech-badge-grid reveal-element">
+
+                <!-- Frontend -->
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML5"></div>
+                    <span class="tech-name">HTML</span>
+                    <span class="tech-category-label">Frontend</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS3"></div>
+                    <span class="tech-name">CSS</span>
+                    <span class="tech-category-label">Frontend</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript"></div>
+                    <span class="tech-name">JavaScript</span>
+                    <span class="tech-category-label">Frontend</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                            alt="React"></div>
+                    <span class="tech-name">React</span>
+                    <span class="tech-category-label">Frontend</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                            alt="Figma"></div>
+                    <span class="tech-name">Figma</span>
+                    <span class="tech-category-label">Frontend</span>
+                </div>
+
+                <!-- Backend -->
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                            alt="Python"></div>
+                    <span class="tech-name">Python</span>
+                    <span class="tech-category-label">Backend</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                            alt="Java"></div>
+                    <span class="tech-name">Java</span>
+                    <span class="tech-category-label">Backend</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js"></div>
+                    <span class="tech-name">Node.js</span>
+                    <span class="tech-category-label">Backend</span>
+                </div>
+
+                <!-- Database -->
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                            alt="MySQL"></div>
+                    <span class="tech-name">MySQL</span>
+                    <span class="tech-category-label">Database</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+                            alt="MSSQL"></div>
+                    <span class="tech-name">MSSQL</span>
+                    <span class="tech-category-label">Database</span>
+                </div>
+
+                <!-- Infrastructure -->
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-solid fa-diagram-project"></i></div>
+                    <span class="tech-name">Draw.io</span>
+                    <span class="tech-category-label">Infrastructure</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-solid fa-project-diagram"></i></div>
+                    <span class="tech-name">Mermaid.js</span>
+                    <span class="tech-category-label">Infrastructure</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-solid fa-network-wired"></i></div>
+                    <span class="tech-name">Cisco</span>
+                    <span class="tech-category-label">Infrastructure</span>
+                </div>
+
+                <!-- QA Testing -->
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg"
+                            alt="Jest"></div>
+                    <span class="tech-name">Jest</span>
+                    <span class="tech-category-label">QA Testing</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg"
+                            alt="Playwright"></div>
+                    <span class="tech-name">Playwright</span>
+                    <span class="tech-category-label">QA Testing</span>
+                </div>
+
+                <!-- Dev Tools -->
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                            alt="VS Code"></div>
+                    <span class="tech-name">VS Code</span>
+                    <span class="tech-category-label">Dev Tools</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                            alt="Git"></div>
+                    <span class="tech-name">Git</span>
+                    <span class="tech-category-label">Dev Tools</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                            alt="GitHub" style="filter: invert(1) brightness(2);"></div>
+                    <span class="tech-name">GitHub</span>
+                    <span class="tech-category-label">Dev Tools</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-brands fa-github-alt"></i></div>
+                    <span class="tech-name">GitHub Desktop</span>
+                    <span class="tech-category-label">Dev Tools</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"
+                            alt="PyCharm"></div>
+                    <span class="tech-name">PyCharm</span>
+                    <span class="tech-category-label">Dev Tools</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg"
+                            alt="Android Studio"></div>
+                    <span class="tech-name">Android Studio</span>
+                    <span class="tech-category-label">Dev Tools</span>
+                </div>
+
+                <!-- Deployment -->
+                <div class="tech-card">
+                    <div class="tech-logo"><svg viewBox="0 0 512 512" style="width: 100%; height: 100%; fill: #fff;">
+                            <path d="M256 48l240 416H16z" />
+                        </svg></div>
+                    <span class="tech-name">Vercel</span>
+                    <span class="tech-category-label">Deployment</span>
+                </div>
+
+                <!-- Collaboration -->
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-brands fa-atlassian"></i></div>
+                    <span class="tech-name">Atlassian (Jira / Confluence)</span>
+                    <span class="tech-category-label">Collaboration</span>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-solid fa-check-double"></i></div>
+                    <span class="tech-name">ClickUp</span>
+                    <span class="tech-category-label">Collaboration</span>
+                </div>
+                <!--<div class="tech-card">
+                    <div class="tech-logo"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discord/discord-original.svg"
+                            alt="Discord"></div>
+                    <span class="tech-name">Discord</span>
+                    <span class="tech-category-label">Collaboration</span>
+                </div>-->
+                <div class="tech-card">
+                    <div class="tech-logo"><i class="fa-solid fa-users"></i></div>
+                    <span class="tech-name">Microsoft Teams</span>
+                    <span class="tech-category-label">Collaboration</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="contact-content">
+                <h2 class="section-title reveal-element">Get In Touch</h2>
+
+                <div class="reveal-element" style="margin-bottom: 2.5rem; transition-delay: 0.1s;">
+                    <p style="font-size: 1.2rem; color: var(--text-primary); font-weight: 600;">I am actively seeking
+                        internship opportunities!</p>
+                </div>
+
+                <div class="contact-cards reveal-element" style="transition-delay: 0.2s;">
+                    <div class="contact-card">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h3>Primary Email</h3>
+                        <a href="mailto:vasquezseanmark.29@gmail.com">vasquezseanmark.29@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3>University Email</h3>
+                        <a href="mailto:seanmarkvasquez@plv.edu.ph">seanmarkvasquez@plv.edu.ph</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Valenzuela City, Philippines</p>
+                    </div>
+                </div>
+
+                <div class="socials reveal-element" style="transition-delay: 0.3s;">
+                    <a href="Vasquez_Resume.pdf" download class="social-btn"><i class="fa-solid fa-download"></i>
+                        Resume</a>
+                    <a href="https://www.linkedin.com/in/sean-mark-vasquez" target="_blank" class="social-btn"><i
+                            class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://github.com/Markssuave?tab=overview&from=2025-12-01&to=2025-12-31" target="_blank"
+                        class="social-btn"><i class="fa-brands fa-github"></i>
+                        GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Overlay for Projects -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Project Image" class="modal-img" id="modal-img">
+            <div class="modal-info">
+                <div class="modal-meta">
+                    <span class="role" id="modal-role"></span>
+                    <span class="year" id="modal-year"></span>
+                </div>
+                <h3 id="modal-title"></h3>
+                <div id="modal-desc" class="modal-desc-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
